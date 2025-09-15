@@ -1,4 +1,3 @@
-
 /********** Template CSS **********/
 :root {
     --primary: #4761FF;
@@ -365,7 +364,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(105, 105, 196, 0.5);
+    background: rgba(0, 0, 0, .5);
     opacity: 0;
     padding-top: 60px;
     transition: .5s;
@@ -591,10 +590,9 @@
 }
 
 .copyright {
-border: 2px double white;}
+    background: #111111;
+}
 
 .copyright a:hover {
-    color: rgb(175, 203, 221) !important;
-    transition-duration: .5s;
-    
+    color: var(--primary) !important;
 }
