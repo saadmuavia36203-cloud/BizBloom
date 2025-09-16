@@ -585,14 +585,14 @@
     box-shadow: none;
 }
 
-.copyright {
-    color: #B0B9AE;
-}
 
 .copyright {
-    background: #111111;
+    border: 1.8px solid white !important;
+    background-color: rgba(14, 14, 250, 0.979) !important;
+    
 }
 
 .copyright a:hover {
-    color: var(--primary) !important;
+    color: rgb(231, 219, 219) !important;
+    transition-duration: .5s;
 }
